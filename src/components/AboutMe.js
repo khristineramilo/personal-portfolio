@@ -19,7 +19,7 @@ const AboutMe = () => {
                             Transforming ideas into <span className="text-white">digital reality.</span>
                         </p>
                         <p className="bio-text">
-                            Hi, I'm <strong>Khristine</strong>! I specialize in building modern applications 
+                            Hi, I'm <strong>Khristine</strong>! I'm learning to build modern applications 
                             through clean code and thoughtful design. When I'm not coding, 
                             you'll find me outdoors, reading, or playing with my dogs.
                         </p>
