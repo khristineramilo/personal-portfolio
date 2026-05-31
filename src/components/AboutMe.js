@@ -25,7 +25,7 @@ const AboutMe = () => {
                         </p>
 
                         <div className="skills-tags">
-                            <span className="skill-tag">React</span>
+                            <span className="skill-tag">C#</span>
                             <span className="skill-tag">JavaScript</span>
                             <span className="skill-tag">CSS3</span>
                             <span className="skill-tag">UI/UX</span>

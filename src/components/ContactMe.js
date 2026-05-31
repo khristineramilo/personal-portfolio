@@ -39,7 +39,7 @@ const ContactMe = () => {
                         <strong>Email:</strong> khristinejramilo.30@gmail.com
                     </div>
                     <div className="info-item">
-                        <strong>Phone:</strong> +1 (123) 456-7890
+                        <strong>Phone:</strong> +1 (123) 444-5678
                     </div>
                     <div className="info-item">
                         <strong>Location:</strong> Toronto, ON, Canada
