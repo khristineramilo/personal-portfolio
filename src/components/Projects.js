@@ -30,11 +30,11 @@ const Projects = () => {
             mainImage: proj1, 
             gallery: [proj1, proj1_a, proj1_b, proj1_c, proj1_d],
             description: "Developed as my final term project, this web application is a fully functional e-commerce platform for real estate listings.",
-            fullDetails: "This project features a fully functional e-commerce platform for real estate listings, complete with user authentication, a shopping cart, and payment processing using the Stripe API.",
+            fullDetails: "This project features a functional e-commerce platform for real estate listings. Users can browse properties, view details and images.",
             role: "Student Developer",
-            outcome: "Gained hands-on experience with authentication, payment integration, and responsive design while building a real-world style application.",
+            outcome: "Gained hands-on experience with full-stack development, including frontend design and backend integration.",
             date: "May 2025",
-            tech: ["React", "Node.js", "Stripe API"]
+            tech: ["CSS", "HTML", "JavaScript"]
         },
         {
             id: 2,
@@ -46,7 +46,7 @@ const Projects = () => {
             role: "Game Designer & Developer",
             outcome: "Created a high-performance game loop that maintains 60fps on mobile devices.",
             date: "August 2025",
-            tech: ["JavaScript", "Chart.js", "Firebase"]
+            tech: ["JavaScript", "CSS", "C#"]
         },
         {
             id: 3,
@@ -58,7 +58,7 @@ const Projects = () => {
             role: "Student Frontend Developer",
             outcome: "Enhanced my abilities in modern web design and interactive feature development.",
             date: "February 2025",
-            tech: ["React", "Leaflet.js", "Tailwind"]
+            tech: ["JavaScript", "CSS", "HTML", "C#"]
         },
         {
             id: 4,
@@ -70,7 +70,7 @@ const Projects = () => {
             role: "Student App Developer",
             outcome: "Learned to design user-friendly interfaces and manage data collection and analysis within a web application.",
             date: "January 2025",
-            tech: ["React", "Firebase", "SASS"]
+            tech: ["JavaScript", "CSS", "HTML", "C#"]
         }
     ];
 
