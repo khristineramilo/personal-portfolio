@@ -8,7 +8,7 @@ const Services = () => {
     const servicesList = [
         {
             title: "Web Development",
-            description: "Building modern, responsive, and high-performance websites using React and modern CSS frameworks.",
+            description: "Building modern, responsive, and high-performance websites using HTML, JavaScript, React and modern CSS frameworks.",
             image: webDevImg
         },
         {
