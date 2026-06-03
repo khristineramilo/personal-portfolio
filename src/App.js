@@ -41,7 +41,7 @@ const App = () => {
 
         {/* Right Side */}
         <div className="footer-socials">
-            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://khristine-ramilo-portfolio.netlify.app/" target="_blank" rel="noreferrer">Live Site</a>
         </div>
     </div>
