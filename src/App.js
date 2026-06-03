@@ -22,7 +22,20 @@ const App = () => {
                 <Route path="/references" element={<References />} />
                 <Route path="/contact" element={<ContactMe />} />
             </Routes>
+
+            <footer className="footer">
+                    <p>&copy; {new Date().getFullYear()} K.Ramilo | COMP229 Student Portfolio</p>
+                    <div className="footer-links">
+                        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://netlify.com" target="_blank" rel="noreferrer">Live Site</a>
+                        <a href="/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+                    </div>
+                </footer>
         </Router>
+
+
+
+
     );
 };
 

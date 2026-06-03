@@ -907,3 +907,18 @@ section {
     display: flex;
     align-items: center;
 }
+
+/* 12. FOOTER */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footer-links a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 10px;
+}
