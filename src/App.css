@@ -919,8 +919,6 @@ section {
   justify-content: center; /* Centers the container */
   width: 100%;
   flex-shrink: 0;
-  z-index: 9999;
-  position: relative;
 }
 
 .footer-container {
