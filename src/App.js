@@ -23,14 +23,29 @@ const App = () => {
                 <Route path="/contact" element={<ContactMe />} />
             </Routes>
 
-            <footer className="footer">
-                    <p>&copy; {new Date().getFullYear()} K.Ramilo | COMP229 Student Portfolio</p>
-                    <div className="footer-links">
-                        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-                        <a href="https://netlify.com" target="_blank" rel="noreferrer">Live Site</a>
-                        <a href="/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
-                    </div>
-                </footer>
+            <footer className="fixed-footer">
+    <div className="footer-container">
+        {/* Left Side */}
+        <div className="footer-id">
+            <span>K.Ramilo | COMP229</span>
+        </div>
+
+        {/* Center Side */}
+        <div className="footer-nav">
+            <h4>Explore</h4>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
+        </div>
+
+        {/* Right Side */}
+        <div className="footer-socials">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://netlify.app" target="_blank">Live Site</a>
+        </div>
+    </div>
+</footer>
         </Router>
 
 
