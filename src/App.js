@@ -13,44 +13,42 @@ import './App.css';
 const App = () => {
     return (
         <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<AboutMe />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/services" element={<Services />} />
-                <Route path="/references" element={<References />} />
-                <Route path="/contact" element={<ContactMe />} />
-            </Routes>
+            <div className="app-wrapper"> {/* Wrap everything in a main div */}
+                <Navbar />
+                
+                <main className="content-area"> {/* Wrap routes in a main tag */}
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<AboutMe />} />
+                        <Route path="/projects" element={<Projects />} />
+                        <Route path="/services" element={<Services />} />
+                        <Route path="/references" element={<References />} />
+                        <Route path="/contact" element={<ContactMe />} />
+                    </Routes>
+                </main>
 
-            <footer className="fixed-footer">
-    <div className="footer-container">
-        {/* Left Side */}
-        <div className="footer-id">
-            <span>K.Ramilo | COMP229</span>
-        </div>
+                <footer className="fixed-footer">
+                    <div className="footer-container">
+                        <div className="footer-id">
+                            <span>K.Ramilo | COMP229</span>
+                        </div>
 
-        {/* Center Side */}
-        <div className="footer-nav">
-            <h4>Explore</h4>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
-        </div>
+                        <div className="footer-nav">
+                            <h4>Explore</h4>
+                            <a href="/">Home</a>
+                            <a href="/about">About</a>
+                            <a href="/projects">Projects</a>
+                            <a href="/contact">Contact</a>
+                        </div>
 
-        {/* Right Side */}
-        <div className="footer-socials">
-            <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://khristine-ramilo-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
-        </div>
-    </div>
-</footer>
+                        <div className="footer-socials">
+                            <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://khristine-ramilo-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
         </Router>
-
-
-
-
     );
 };
 
