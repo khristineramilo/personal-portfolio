@@ -27,26 +27,39 @@ const App = () => {
                     </Routes>
                 </main>
 
-                <footer className="fixed-footer">
-                    <div className="footer-container">
-                        <div className="footer-id">
-                            <span>K.Ramilo | COMP229</span>
-                        </div>
+<footer className="fixed-footer" style={{ 
+    backgroundColor: '#111', 
+    color: 'white', 
+    padding: '10px 0', 
+    width: '100%', 
+    position: 'fixed', 
+    bottom: 0, 
+    zIndex: 9999,
+    display: 'flex',
+    justifyContent: 'center'
+}}>
+    <div className="footer-container" style={{ display: 'flex', gap: '20px', fontSize: '12px' }}>
+        {/* Left Side */}
+        <div className="footer-id">
+            <span>K.Ramilo | COMP229</span>
+        </div>
 
-                        <div className="footer-nav">
-                            <h4>Explore</h4>
-                            <a href="/">Home</a>
-                            <a href="/about">About</a>
-                            <a href="/projects">Projects</a>
-                            <a href="/contact">Contact</a>
-                        </div>
+        {/* Center Side */}
+        <div className="footer-nav" style={{ display: 'flex', gap: '10px' }}>
+            <span style={{color: '#646cff', fontWeight: 'bold'}}>EXPLORE:</span>
+            <a href="/" style={{color: '#ccc', textDecoration: 'none'}}>Home</a>
+            <a href="/about" style={{color: '#ccc', textDecoration: 'none'}}>About</a>
+            <a href="/projects" style={{color: '#ccc', textDecoration: 'none'}}>Projects</a>
+            <a href="/contact" style={{color: '#ccc', textDecoration: 'none'}}>Contact</a>
+        </div>
 
-                        <div className="footer-socials">
-                            <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">GitHub</a>
-                            <a href="https://khristine-ramilo-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
-                        </div>
-                    </div>
-                </footer>
+        {/* Right Side */}
+        <div className="footer-socials" style={{ display: 'flex', gap: '10px' }}>
+            <a href="https://github.com..." target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>GitHub</a>
+            <a href="https://netlify.app" target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>Live Site</a>
+        </div>
+    </div>
+</footer>
             </div>
         </Router>
     );
