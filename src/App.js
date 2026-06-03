@@ -45,14 +45,13 @@ const App = () => {
         </div>
 
         {/* Center Side */}
-        <div className="footer-nav" style={{ display: 'flex', gap: '10px' }}>
-            <span style={{color: '#646cff', fontWeight: 'bold'}}>EXPLORE:</span>
-            <a href="/" style={{color: '#ccc', textDecoration: 'none'}}>Home</a>
-            <a href="/about" style={{color: '#ccc', textDecoration: 'none'}}>About</a>
-            <a href="/projects" style={{color: '#ccc', textDecoration: 'none'}}>Projects</a>
-            <a href="/contact" style={{color: '#ccc', textDecoration: 'none'}}>Contact</a>
-        </div>
-
+<div className="footer-nav" style={{ display: 'flex', gap: '10px' }}>
+    <span style={{color: '#646cff', fontWeight: 'bold'}}>EXPLORE:</span>
+    <Link to="/" style={{color: '#ccc', textDecoration: 'none'}}>Home</Link>
+    <Link to="/about" style={{color: '#ccc', textDecoration: 'none'}}>About</Link>
+    <Link to="/projects" style={{color: '#ccc', textDecoration: 'none'}}>Projects</Link>
+    <Link to="/contact" style={{color: '#ccc', textDecoration: 'none'}}>Contact</Link>
+</div>
         {/* Right Side */}
         <div className="footer-socials" style={{ display: 'flex', gap: '10px' }}>
             <a href="https://github.com..." target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>GitHub</a>
