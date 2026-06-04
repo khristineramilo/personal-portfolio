@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -8,7 +9,6 @@ import Services from './components/Services';
 import References from './components/References';
 import ContactMe from './components/ContactMe';
 import './App.css';
-import { Link } from 'react-router-dom';
 
 
 const App = () => {
@@ -56,7 +56,7 @@ const App = () => {
         {/* Right Side */}
         <div className="footer-socials" style={{ display: 'flex', gap: '10px' }}>
             <a href="https://github.com..." target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>GitHub</a>
-            <a href="https://netlify.app" target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>Live Site</a>
+            <a href="https://render.com" target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>Live Site</a>
         </div>
     </div>
 </footer>
