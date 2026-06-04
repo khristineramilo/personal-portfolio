@@ -128,18 +128,26 @@ nav ul li a:hover {
         padding: 10px 5%; /* Reduce side padding to give more room */
         flex-direction: column; /* Stacks logo and links vertically */
         height: auto; /* Allows nav to grow in height if needed */
+        position: relative; /* Changes from fixed to relative to prevent overlap issues */
     }
 
+    nav .logo {
+        margin-bottom: 10px; /* Adds space between logo and links */
+        font-size: 1.2rem; /* Slightly smaller logo on mobile */
+    }
     nav ul {
-        gap: 10px; /* Shrink space between links */
+        gap: 8px; /* Shrink space between links */
         flex-wrap: wrap; /* Allows links to wrap to a second row */
         justify-content: center;
         padding: 0;
         margin-top: 10px;
+        flex-direction: row; /* Keeps links in a row but allows wrapping */
+        width: 100%; /* Ensures it takes full width for better wrapping */
     }
 
     nav ul li a {
         font-size: 0.75rem; /* Slightly smaller text for mobile */
+        padding: 5px;
     }
 }
 
