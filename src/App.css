@@ -123,22 +123,23 @@ nav ul li a:hover {
 }
 
 /* This fix only applies to mobile screens */
-@media (max-width: 768px) {
+@media (max-width: 600x) {
     nav {
-        padding: 15px 5%; /* Reduce side padding to give more room */
+        padding: 10px 5%; /* Reduce side padding to give more room */
         flex-direction: column; /* Stacks logo and links vertically */
-        gap: 10px;
+        height: auto; /* Allows nav to grow in height if needed */
     }
 
     nav ul {
-        gap: 15px; /* Shrink space between links */
+        gap: 10px; /* Shrink space between links */
         flex-wrap: wrap; /* Allows links to wrap to a second row */
         justify-content: center;
         padding: 0;
+        margin-top: 10px;
     }
 
     nav ul li a {
-        font-size: 0.8rem; /* Slightly smaller text for mobile */
+        font-size: 0.75rem; /* Slightly smaller text for mobile */
     }
 }
 
