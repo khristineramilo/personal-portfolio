@@ -55,8 +55,8 @@ const App = () => {
 </div>
         {/* Right Side */}
         <div className="footer-socials" style={{ display: 'flex', gap: '10px' }}>
-            <a href="https://github.com..." target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>GitHub</a>
-            <a href="https://render.com" target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>Live Site</a>
+            <a href="https://github.com/khristineramilo/personal-portfolio" target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>GitHub</a>
+            <a href="https://personal-portfolio-fce9ow00q-personal-portfolio-s-projects1.vercel.app/" target="_blank" rel="noopener noreferrer" style={{color: '#ccc'}}>Live Site</a>
         </div>
     </div>
 </footer>
